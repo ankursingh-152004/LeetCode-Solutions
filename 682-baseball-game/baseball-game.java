@@ -1,7 +1,6 @@
 class Solution {
     public int calPoints(String[] operations) {
         ArrayList<Integer> ans=new ArrayList<>();
-        // ans.add(Integer.valueOf(operations[0]));
         for(int i=0;i<operations.length;i++){
             if(operations[i].equals("C")){
                 ans.remove(ans.size()-1);
